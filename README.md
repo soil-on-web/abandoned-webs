@@ -2,7 +2,7 @@
 
 a listing of abandoned websites on soil/land
 
-are you following a link from an ancient report to a non existing website? Create an [issue](./issues) or [pull request](./pulls)
+are you following a link from an ancient report to a non existing website? Create an [issue](../../issues) or [pull request](../../pulls)
 
 aim of this repo is to set up a list of abandoned websites related to land & soil information, on one hand to notify upcoming initiatives to consider url persistence, on the other hand to recover the lost information from repositories such as [archive.org](https://web.archive.org). If funding permits, it would be nice to reclaim the lost domains.
 
