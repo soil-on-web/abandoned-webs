@@ -6,6 +6,7 @@ are you following a link from an ancient report to a non existing website? Creat
 
 aim of this repo is to set up a list of abandoned websites related to land & soil information, on one hand to notify upcoming initiatives to consider url persistence, on the other hand to recover the lost information from repositories such as [archive.org](https://web.archive.org). If funding permits, it would be nice to reclaim the lost domains.
 
+- [globalsoilmap.net](https://web.archive.org/web/20180712112423/http://globalsoilmap.net/)
 - [http://www.contaminatedland.co.uk](https://web.archive.org/web/20070228165308/http://www.contaminatedland.co.uk/) 
 - [http://pesera.jrc.it](https://web.archive.org/web/20040626144114/http://pesera.jrc.it/default/show.gx?_app.page=show-USR.html&Object.object_id=KM------0000000000000002) 
 - [https://srtm.usgs.gov](https://web.archive.org/web/20071103132819/http://srtm.usgs.gov/) 
