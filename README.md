@@ -14,4 +14,5 @@ a listing of abandoned websites on soil/land
 - [http://lifeforesmit.com](https://web.archive.org/web/20220303112921/http://lifeforesmit.com/it/)
 - [http://h2020.inspiration-agenda.eu/](https://web.archive.org/web/20220307214050/http://h2020.inspiration-agenda.eu/)
 - `hijacked` [https://landmark2020.eu/](https://web.archive.org/web/20220103222100/http://landmark2020.eu/)
+- [http://www.soiltrec.eu](https://web.archive.org/web/20150907120620/http://www.soiltrec.eu/)
 
