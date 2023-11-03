@@ -13,5 +13,5 @@ a listing of abandoned websites on soil/land
 - [https://carbonaction.org](https://web.archive.org/web/20220809222132/https://carbonaction.org/en/)
 - [http://lifeforesmit.com](https://web.archive.org/web/20220303112921/http://lifeforesmit.com/it/)
 - [http://h2020.inspiration-agenda.eu/](https://web.archive.org/web/20220307214050/http://h2020.inspiration-agenda.eu/)
-- 'hijacked' [https://landmark2020.eu/](https://web.archive.org/web/20220103222100/http://landmark2020.eu/)
+- `hijacked` [https://landmark2020.eu/](https://web.archive.org/web/20220103222100/http://landmark2020.eu/)
 
