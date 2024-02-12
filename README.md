@@ -24,7 +24,8 @@ aim of this repo is to set up a list of abandoned websites related to land & soi
 - ~~`hijacked`~~ [http://www.upsoil.eu](https://web.archive.org/web/20141124001344/http://www.upsoil.eu/)
 - [http://www.citychlor.eu](https://web.archive.org/web/20141124001345/http://www.citychlor.eu/)
 - [http://www.timbre-project.eu](https://web.archive.org/web/20141124001344/http://www.timbre-project.eu/)
-- `hijacked` [https://cobwebproject.eu/](https://web.archive.org/web/20170808073521/https://cobwebproject.eu/) 
+- `hijacked` [https://cobwebproject.eu/](https://web.archive.org/web/20170808073521/https://cobwebproject.eu/)
+- [https://sislac.org](https://web.archive.org/web/20160726023137/http://www.sislac.org/)
 
 ## good practices on url persistence of temporary websites
 
