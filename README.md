@@ -26,6 +26,7 @@ aim of this repo is to set up a list of abandoned websites related to land & soi
 - [http://www.timbre-project.eu](https://web.archive.org/web/20141124001344/http://www.timbre-project.eu/)
 - `hijacked` [https://cobwebproject.eu/](https://web.archive.org/web/20170808073521/https://cobwebproject.eu/)
 - [https://sislac.org](https://web.archive.org/web/20160726023137/http://www.sislac.org/)
+- [gssoil-portal.eu](https://web.archive.org/web/20131009224121/http://gssoil-portal.eu/ingrid-portal/)
 
 ## good practices on url persistence of temporary websites
 
