@@ -27,6 +27,8 @@ aim of this repo is to set up a list of abandoned websites related to land & soi
 - `hijacked` [https://cobwebproject.eu/](https://web.archive.org/web/20170808073521/https://cobwebproject.eu/)
 - [https://sislac.org](https://web.archive.org/web/20160726023137/http://www.sislac.org/)
 - [gssoil-portal.eu](https://web.archive.org/web/20131009224121/http://gssoil-portal.eu/ingrid-portal/)
+- `hijacked` [landmark2020.eu]([https://landmark2020.eu](https://web.archive.org/web/20220310125101/https://landmark2020.eu/))
+
 
 ## good practices on url persistence of temporary websites
 
