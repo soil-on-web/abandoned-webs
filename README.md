@@ -1,10 +1,11 @@
-# abandoned-webs
+# Abandoned Webs
 
-a listing of abandoned websites on soil/land
+A listing of abandoned websites on soil/land
 
-are you following a link from an ancient report to a non existing website? Create an [issue](../../issues) or [pull request](../../pulls)
+Are you following a link from an ancient report to a non existing website? Create an [issue](../../issues) or [pull request](../../pulls)
 
-aim of this repo is to set up a list of abandoned websites related to land & soil information, on one hand to notify upcoming initiatives to consider url persistence, on the other hand to recover the lost information from repositories such as [archive.org](https://web.archive.org). If funding permits, it would be nice to reclaim the lost domains.
+Aim of this repo is to set up a list of abandoned websites related to land & soil information, on one hand to notify upcoming initiatives to consider url persistence, on the other hand to recover the lost information 
+from repositories such as [archive.org](https://web.archive.org). If funding permits, it would be nice to reclaim the lost domains.
 
 - [globalsoilmap.net](https://web.archive.org/web/20180712112423/http://globalsoilmap.net/)
 - [http://www.contaminatedland.co.uk](https://web.archive.org/web/20070228165308/http://www.contaminatedland.co.uk/) 
@@ -31,10 +32,22 @@ aim of this repo is to set up a list of abandoned websites related to land & soi
 - [removal-project.com](https://web.archive.org/web/20240822131212/https://www.removal-project.com/)
 
 
-## good practices on url persistence of temporary websites
+## Good practices on url persistence of temporary websites
 
-- use a subdomain of an established organisation (prevents hijacking of the domain at domain expiration, indicates ownership)
-- use a persistent identifier framework, such as DOI, W3ID when linking to external sources
-- set up [rewrite rules](https://en.wikipedia.org/wiki/Rewrite_engine) at website cancelation
-- use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases~~. we love [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/), especially [quarto](https://quarto.org)
-- if you adopt a domain anyway, keep the content minimal, set up a [one page website](https://www.web.com/blog/one-page-vs-multi-page-website/), from there link to external (persistent) resources and pre-pay the domain ownership (not the hosting) for at least the upcoming 10 years
+### For dissemination teams/web publishers
+
+- Use a subdomain of an established organisation (prevents hijacking of the domain at domain expiration, indicates ownership), else pre-pay the domain ownership (not the hosting) for at least the upcoming 10 years
+- Use a persistent identifier framework, such as DOI, W3ID as identifiers for your resources
+- Set up [rewrite rules](https://en.wikipedia.org/wiki/Rewrite_engine) at website cancelation
+- Use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases~~. we love [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/), especially [quarto](https://quarto.org)
+- Keep website content minimal, set up a [one page website](https://www.web.com/blog/one-page-vs-multi-page-website/), from there link to external (persistent) resources
+
+### For report writers
+
+Another reason why links on reports end up broken is because report writers often just copy a url from the browser bar and paste it in a report.
+As a report writer, when selecting a relevant url to use in your report:
+
+- Assess the likelyhood of persistence of the resource (if unsure, contact the authors), else consider to not include a direct link in the report. For example, do not link to a project website, but link to a registry where the project is described (for example [cordis](https://cordis.europa.eu))
+- Verify if the url has a DOI, handle.net, w3id.org identifier attached, if so use that identifier.
+- Remove all sorts of parameters at the end of the url. However before removing them, verify the url is still operational (and points to the relevant content). Try splitting the url at `#`, `?` or '/'.
+- In the source of the website (view source/inspect), look for the `<link rel="canonical" href="http://example.com"/>` element in `<head>`, and use the value from `href`, this is the [canonical url](https://en.wikipedia.org/wiki/Canonical_link_element), used for example by search engines. 
