@@ -36,18 +36,18 @@ from repositories such as [archive.org](https://web.archive.org). If funding per
 
 ### For dissemination teams/web publishers
 
-- Use a subdomain of an established organisation (prevents hijacking of the domain at domain expiration, indicates ownership), else pre-pay the domain ownership (not the hosting) for at least the upcoming 10 years
-- Use a persistent identifier framework, such as DOI, W3ID as identifiers for your resources
-- Set up [rewrite rules](https://en.wikipedia.org/wiki/Rewrite_engine) at website cancelation
-- Use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases~~. we love [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/), especially [quarto](https://quarto.org)
-- Keep website content minimal, set up a [one page website](https://www.web.com/blog/one-page-vs-multi-page-website/), from there link to external (persistent) resources
+- Use a subdomain of an established organisation (prevents hijacking of the domain at domain expiration, indicates ownership), else pre-pay the domain ownership (not the hosting) for at least the upcoming 10 years.
+- Use a persistent identifier framework, such as [DOI](https://doi.org) as identifiers for your resources (At website cancelation/move, the DOI can be rerouted to the new location).
+- Set up [rewrite rules](https://en.wikipedia.org/wiki/Rewrite_engine) at website cancelation.
+- Use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases~~. Consider to use [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/).
+- Keep website content minimal, set up a [one page website](https://www.web.com/blog/one-page-vs-multi-page-website/), from there link to external (persistent) resources.
 
 ### For report writers
 
 Another reason why links on reports end up broken is because report writers often just copy a url from the browser bar and paste it in a report.
 As a report writer, when selecting a relevant url to use in your report:
 
-- Assess the likelyhood of persistence of the resource (if unsure, contact the authors), else consider to not include a direct link in the report. For example, do not link to a project website, but link to a registry where the project is described (for example [cordis](https://cordis.europa.eu))
-- Verify if the url has a DOI, handle.net, w3id.org identifier attached, if so use that identifier.
-- Remove all sorts of parameters at the end of the url. However before removing them, verify the url is still operational (and points to the relevant content). Try splitting the url at `#`, `?` or '/'.
+- Assess the likelyhood of persistence of the resource (if unsure, contact the authors), else consider to not include a direct link in the report. For example, do not link to a project website, but link to a registry where the project is described (for example [cordis](https://cordis.europa.eu)).
+- Verify if the resource has a DOI, handle.net, w3id.org identifier attached, if so use that identifier.
+- Remove all sorts of parameters at the end of the url. However before removing them, verify the url is still operational (and points to the relevant content). Try splitting the url at `#`, `?` or `/`.
 - In the source of the website (view source/inspect), look for the `<link rel="canonical" href="http://example.com"/>` element in `<head>`, and use the value from `href`, this is the [canonical url](https://en.wikipedia.org/wiki/Canonical_link_element), used for example by search engines. 
