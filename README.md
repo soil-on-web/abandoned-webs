@@ -39,7 +39,7 @@ from repositories such as [archive.org](https://web.archive.org). If funding per
 - Use a subdomain of an established organisation (prevents hijacking of the domain at domain expiration, indicates ownership), else pre-pay the domain ownership (not the hosting) for at least the upcoming 10 years.
 - Use a persistent identifier framework, such as [DOI](https://doi.org) as identifiers for your resources (At website cancelation/move, the DOI can be rerouted to the new location).
 - Set up [rewrite rules](https://en.wikipedia.org/wiki/Rewrite_engine) at website cancelation.
-- Use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases~~. Consider to use [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/).
+- Use minimal technology, yes: `html`; no: ~~wordpress, drupal, liferay, databases, react, angular, vue.js~~. Consider to use [Static Site Generators](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/).
 - Keep website content minimal, set up a [one page website](https://www.web.com/blog/one-page-vs-multi-page-website/), from there link to external (persistent) resources.
 
 ### For report writers
