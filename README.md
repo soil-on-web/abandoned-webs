@@ -30,6 +30,7 @@ from repositories such as [archive.org](https://web.archive.org). If funding per
 - [gssoil-portal.eu](https://web.archive.org/web/20131009224121/http://gssoil-portal.eu/ingrid-portal/)
 - `hijacked` [landmark2020.eu](https://web.archive.org/web/20220310125101/https://landmark2020.eu/)
 - [removal-project.com](https://web.archive.org/web/20240822131212/https://www.removal-project.com/)
+- [soilmissionsupport.eu](https://web.archive.org/web/20220925172454/https://www.soilmissionsupport.eu/)
 
 
 ## Good practices on url persistence of temporary websites
